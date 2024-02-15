@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+    background-image: url();
+    
+    
+    .lov {
+        margin-top: 50px;
+         position: absolute;
+         top:0;
+         left:0;
+         right:0;
+         bottom: 0;
+         z-index: 2;
+    }
+
+}
