@@ -32,9 +32,23 @@ body{
         border-radius:10px; box-shadow: 0 0 10px #444;
     }
 
-        @media (max-width:320px) {
 
-      }
-
+    .namee{
+        position: absolute;
+        top: 495px;
+        left: 30px;
+        color: bisque;
+        left: 120px;
     
+    }
+
+    .ichigo{
+        position: absolute;
+        top: 760px;
+        left: 30px;
+        color: bisque;
+        left: 120px;
+    }
+
+
 }
