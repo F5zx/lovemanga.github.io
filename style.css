@@ -1,131 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    
-    background-image: url(img/fon-img.jpg);
-    background-color: black;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-image: url(img/fon-img.jpg);
 
-    
-    .lov{
-        margin-top: 50px;
-         position: absolute;
-         top: 200px;
-         left: 110px;
-         right:0;
-         bottom: 0;
-         z-index: 2;
-         border-radius:10px;
-         box-shadow: 0 0 10px #444;
-         height: 250px;
-         width: 165px;
-     }
-
-
-     .lov2{
-        margin-top: 50px;
-        position: absolute;
-        top: 480px;
-        left:110px;
-        right:0;
-        bottom: 0;
-        z-index: 2;
-        border-radius:10px;
-        box-shadow: 0 0 10px #444;
-        height: 230px;
-        width: 165px;
-     }
-        
-
-    .general{
-
-        position: absolute;
-        top: 10px;
-         left:0;
-         right:0;
-         bottom: 0;
-         z-index: 2;
-         box-shadow: 0 0 10px #444;
-         border-radius:10px;
-         width: 60px ;
-         height: 80px;
-    }
-
-
-
-    .namee{
-        position: absolute;
-        top: 495px;
-        left: 30px;
-        color: bisque;
-        left: 120px;
-    
-    }
-    /* текст к изаброжению манги */
-    .ichigo{
-        position: absolute;
-        top: 760px;
-        left: 30px;
-        color: bisque;
-        left: 120px;
-        
-    }
-
-    .pz1{
-        width: 1879px;
-        height: auto;
-        position: fixed;
-        top: 0px; left: 0px;
-        border: 50px solid bisque;
-        background:chocolate;
-        }
-
-        .pz2{
-            width: 1879px;
-            height: auto;
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            border: 2px solid grey;
-            }
-            
-        .pz3{
-        width: 1879px;
-        height: auto; position: fixed; 
-        top: 100px; 
-        left: 0px; 
-        border: 2px solid grey;
-        }
-        
-        .pz4{
-        width: 99,9px;
-        height: 909px;
-        position: fixed;
-        top: 99px;
-        left: 1779px;
-        border:2px solid grey;
-        }
-
-    .pg{
-    width: 50px; 
-    height: 909px; 
-    position: fixed; 
-    top: 99px; 
-    left: 1779px; 
-    border: 50px solid bisque; 
-    background:chocolate;
-    }
-
-    .pg2{
+  /* настройка для манги на плашки по центру */
+  .mangascreensaver {
+    margin-top: 50px;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+    height: 250px;
+    width: 165px;
+  }
+  /* настройка для манги на плашки по центру */
+  .mangascreensaver2 {
+    margin-top: 50px;
+    position: absolute;
+    top: 480px;
+    left: 110px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+    height: 230px;
+    width: 165px;
+  }
+  /* настройка кортинки для манги в будушем*/
+  .inthefuture {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    box-shadow: 0 0 10px #444;
+    border-radius: 10px;
+    width: 60px;
+    height: 80px;
+  }
+  /* название манги такийские мстители */
+  .namemangatxt {
+    position: absolute;
+    top: 495px;
+    left: 30px;
+    color: bisque;
+    left: 120px;
+  }
+  /* назание манги ичиго */
+  .ichigotxt {
+    position: absolute;
+    top: 760px;
+    left: 30px;
+    color: bisque;
+    left: 120px;
+  }
+  /* верхния плашка с мангой */
+  .upperbarrier {
+    width: 1879px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: 50px solid bisque;
+    background: chocolate;
+  }
+  /* верхния контур дял плашки с мангой */
+  .theboundaries {
+    width: 1879px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: 2px solid grey;
+  }
+  /* нижний контур дял плашки с мангой */
+  .lowerboundaries {
+    width: 1879px;
+    height: auto;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    border: 2px solid grey;
+  }
+  /* плашка справа для категрой манги  */
+  .rbarrierborder {
+    width: 99, 9px;
+    height: 909px;
+    position: fixed;
+    top: 99px;
+    left: 1779px;
+    border: 2px solid grey;
+  }
+  /* контур для правай плашки */
+  .rightbarrier {
+    width: 50px;
+    height: 909px;
+    position: fixed;
+    top: 99px;
+    left: 1779px;
+    border: 50px solid bisque;
+    background: chocolate;
+  }
+  /* основная плашка с мангой по центру */
+  .centerbarrier {
     width: 1650px;
     height: auto;
     position: fixed;
     top: 250px;
     left: 100px;
     border: 270px solid grey;
-    border-radius:10px;
+    border-radius: 10px;
     box-shadow: 0 0 10px #444;
-    }
+  }
 }
