@@ -7,30 +7,52 @@ body{
     
     background-image: url(img/fon-img.jpg);
     background-color: black;
+
     
-    
-    .lov {
+    .lov{
         margin-top: 50px;
          position: absolute;
-         top:0;
-         left:0;
+         top: 200px;
+         left: 110px;
          right:0;
          bottom: 0;
          z-index: 2;
-    }
-    
-    .general{
+         border-radius:10px;
+         box-shadow: 0 0 10px #444;
+         height: 250px;
+         width: 165px;
+     }
+
+
+     .lov2{
+        margin-top: 50px;
         position: absolute;
-        top: 20px;
+        top: 480px;
+        left:110px;
+        right:0;
+        bottom: 0;
+        z-index: 2;
+        border-radius:10px;
+        box-shadow: 0 0 10px #444;
+        height: 230px;
+        width: 165px;
+     }
+        
+
+    .general{
+
+        position: absolute;
+        top: 10px;
          left:0;
          right:0;
          bottom: 0;
          z-index: 2;
+         box-shadow: 0 0 10px #444;
+         border-radius:10px;
+         width: 60px ;
+         height: 80px;
     }
 
-    .or{
-        border-radius:10px; box-shadow: 0 0 10px #444;
-    }
 
 
     .namee{
@@ -41,14 +63,69 @@ body{
         left: 120px;
     
     }
-
+    /* текст к изаброжению манги */
     .ichigo{
         position: absolute;
         top: 760px;
         left: 30px;
         color: bisque;
         left: 120px;
+        
     }
 
+    .pz1{
+        width: 1879px;
+        height: auto;
+        position: fixed;
+        top: 0px; left: 0px;
+        border: 50px solid bisque;
+        background:chocolate;
+        }
 
+        .pz2{
+            width: 1879px;
+            height: auto;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            border: 2px solid grey;
+            }
+            
+        .pz3{
+        width: 1879px;
+        height: auto; position: fixed; 
+        top: 100px; 
+        left: 0px; 
+        border: 2px solid grey;
+        }
+        
+        .pz4{
+        width: 99,9px;
+        height: 909px;
+        position: fixed;
+        top: 99px;
+        left: 1779px;
+        border:2px solid grey;
+        }
+
+    .pg{
+    width: 50px; 
+    height: 909px; 
+    position: fixed; 
+    top: 99px; 
+    left: 1779px; 
+    border: 50px solid bisque; 
+    background:chocolate;
+    }
+
+    .pg2{
+    width: 1650px;
+    height: auto;
+    position: fixed;
+    top: 250px;
+    left: 100px;
+    border: 270px solid grey;
+    border-radius:10px;
+    box-shadow: 0 0 10px #444;
+    }
 }
