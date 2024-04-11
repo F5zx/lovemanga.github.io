@@ -1,13 +1,9 @@
-body{
+body {
+  background-color: black;
+
+  .image-center {
+    display: block;
+    margin: auto auto 100px;
     background-color: black;
-
-    .image-center{
-        display: block;
-        margin: auto auto 100px;
-        background-color: black;
-
-
-    }
-    
+  }
 }
-
