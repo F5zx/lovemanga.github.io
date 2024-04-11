@@ -3,7 +3,7 @@ body {
 
   .image-center {
     display: block;
-    margin: auto auto 100px;
+    margin: auto auto 10vw;
     background-color: black;
   }
 }
