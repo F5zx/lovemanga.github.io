@@ -1,29 +1,29 @@
-body{
-    background-color: black;
-    .syss{
-        width: 300px;;
-        border-radius:10px;
-        margin-top: 0px;
-        margin-left: 400px;
-    }
+body {
+  background-color: black;
+  .syss {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 400px;
+    box-shadow: 0 0 10px #444;
+  }
 
-    border: 20px solid blue;
-    border-radius:10px;
-    
-    .txt {
-        line-height: 1em; /* или 0.9 */
-        line-height: 20px;
-        position: absolute;
-        top: 20px;
-        left: 30px;
-        color: bisque;
-      }
+  border: 20px solid blue;
+  border-radius: 10px;
 
-      .nametxt {
-        position: absolute;
-        top: 7px;
-        left: 30px;
-        color: bisque;
-      }
+  .txt {
+    line-height: 1em; /* или 0.9 */
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: bisque;
+  }
 
+  .nametxt {
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    color: bisque;
+  }
 }
