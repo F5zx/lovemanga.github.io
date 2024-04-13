@@ -1,8 +1,0 @@
-body {
-    /* настройка где будет находиться манга при прочтении */
-  .image-center {
-    display: block;
-    margin: auto auto 10vw;
-    background-color: black;
-  }
-}
