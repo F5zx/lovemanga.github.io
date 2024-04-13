@@ -75,6 +75,7 @@ body {
     left: 0vw;
     border: 2.7vw solid bisque;
     background: chocolate;
+    position: fixed;
   }
   /* верхния контур дял плашки с мангой */
   .theboundaries {
