@@ -4,16 +4,15 @@
   width: 686px;
   height: 800px;
   border-radius: 20px;
-
-      @media (max-width: 600px) {
-      width: 100vw;
-    }
 }
 
 .manga__image {
   width: 686px;
   height: 800px;
   object-fit: contain;
+      @media (max-width: 600px) {
+      width: 100vw;
+    }
 }
 
 .manga__switch__left {
