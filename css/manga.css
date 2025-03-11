@@ -10,9 +10,9 @@
   width: 686px;
   height: 800px;
   object-fit: contain;
-      @media (max-width: 600px) {
-      width: 100vw;
-    }
+  @media (max-width: 600px) {
+    width: 100vw;
+  }
 }
 
 .manga__switch__left {
