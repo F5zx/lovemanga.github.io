@@ -16,10 +16,6 @@ body.page-manga {
     width: 50vw;
     max-width: 700px;
     margin: 0 auto;
-
-    @media (max-width: 600px) {
-      width: 100vw;
-    }
   }
 
   .image-page {
