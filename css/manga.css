@@ -1,16 +1,16 @@
 .manga {
   margin: 90px auto 0;
   position: relative;
-  width: 668px;
-  height: 700px;
+  width: 686px;
+  height: 800px;
   border-radius: 20px;
 
   
 }
 
 .manga__image {
-  width: 668px;
-  height: 700px;
+  width: 686px;
+  height: 800px;
   object-fit: contain;
   @media (max-width: 600px) {
     width: 100vw;
