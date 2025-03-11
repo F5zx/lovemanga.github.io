@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat&family=Noto+Sans&family=Roboto:wght@400;700&display=swap");
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-image: url(../img/fon-img.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.header__container__title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 16px;
+  user-select: none;
+}
+
+.header__container__logo {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  background-image: url("../img/logo.png");
+  background-size: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.header__profile {
+  margin-right: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  transition: all 0.1s ease-in-out;
+}
+
+.header__profile:hover {
+  color: #a824d3;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  min-height: 100vh;
+
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+  }
+}
