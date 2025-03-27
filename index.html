@@ -6,6 +6,7 @@
     <title>lovemanga</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/search.css"/>
   </head>
   <body>
     <header class="header">
@@ -15,6 +16,15 @@
       </div>
       <a href="profile.html" class="header__profile"> Профиль </a>
     </header>
+    <div class="main-search-container">
+      <div class="search-wrapper">
+          <input 
+              type="text" 
+              class="main-search-input" 
+              placeholder="Поиск манги или ранобэ..."
+          >
+      </div>
+  </div>
     <main>
       <div class="container">
         <div class="wrapper">
@@ -28,7 +38,7 @@
               src="img/tokyo_revenger/1.jpg"
               class="image"
             />
-            <h3 class="wrapper__item__title">Tokyo revenger</h3>
+            <h3 class="wrapper__item__title">Токийские Мстители</h3>
           </a>
           <a
             class="wrapper__item"
@@ -58,5 +68,6 @@
         </div>
       </div>
     </main>
+    <script src="js/search.js"></script>
   </body>
 </html>
