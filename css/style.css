@@ -24,6 +24,11 @@ main {
   height: 80px;
   width: 100%;
   background-color: black;
+
+  @media (min-width: auto) {
+    width: 375px;
+    height: 667px;
+  }
 }
 
 .header__container {
@@ -37,7 +42,7 @@ main {
   font-size: 24px;
   font-weight: 700;
   margin-left: 16px;
-  user-select: none;
+  user-select: none;  
 }
 
 .header__container__logo {
@@ -67,7 +72,5 @@ main {
   flex-grow: 1;
   min-height: 100vh;
 
-  @media (max-width: 900px) {
-    flex-direction: column-reverse;
-  }
+
 }
