@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/search.css"/>
+    <link rel="stylesheet" href="css/updatemanga.css"/>
   </head>
   <body>
     <header class="header">
@@ -26,6 +27,28 @@
       </div>
   </div>
     <main>
+      <button class="sidebar-toggle" onclick="toggleSidebar()">Скоро выйдет</button>
+      <div class="sidebar">
+        <h3 class="upcoming-header">Скоро добавим:</h3>
+        <div class="upcoming-list">
+          <div class="upcoming-item active">
+            <img src="img/bsd/1bsd.jpg" alt="Великий из Бродячих Псов">
+            <div class="upcoming-info">
+              <h4>Великий из Бродячих Псов</h4>
+              <p>Добавим: 05.04.2025
+                <br>1-том
+              </p>
+            </div>
+          </div>
+          <div class="upcoming-item">
+            <img src="img/wolf/1wolf.jpg" alt="Мой волк">
+            <div class="upcoming-info">
+              <h4>Мой волк</h4>
+              <p>Добавим: 12.04.2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="wrapper">
           <h1 class="wrapper__title">Выберите мангу:</h1>
@@ -83,5 +106,6 @@
       </div>
     </main>
     <script src="js/search.js"></script>
+    <script src="js/updatemanga.js"></script>
   </body>
 </html>
