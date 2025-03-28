@@ -33,7 +33,7 @@
 }
 
 .wrapper__title {
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   font-weight: 700;
   position: absolute;
@@ -84,4 +84,41 @@
   backdrop-filter: blur(3px);
   z-index: -1;
   transition: backround-color 600ms ease;
+}
+@media (max-width: 480px) {
+  .header__container__title {
+    font-size: 18px;
+  }
+  
+  .header__profile {
+    font-size: 14px;
+  }
+  
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .main-search-input {
+    font-size: 14px;
+  }
+}
+
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .sidebar-toggle {
+    display: block;
+  }
 }
